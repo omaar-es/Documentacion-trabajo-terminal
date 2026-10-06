@@ -2,7 +2,7 @@ name: Compilar Trabajo Terminal
 on:
   push:
     branches:
-      - main  # O 'master', dependiendo de cómo se llame tu rama principal
+      - main
 
 jobs:
   build_latex:
@@ -15,11 +15,18 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
-          # latexmk es el motor estándar, compila múltiples veces para resolver referencias
           args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Renombrar archivo a formato formal
+        run: mv main.pdf TT-A214.pdf
           
-      - name: Subir PDF como Artifact
-        uses: actions/upload-artifact@v4
+      - name: Crear enlace permanente para sinodales
+        uses: ncipollo/release-action@v1
         with:
-          name: Trabajo_Terminal_PDF
-          path: main.pdf
+          artifacts: "TT-A214.pdf"
+          tag: "Borrador-Actual"
+          name: "Última versión del Trabajo Terminal"
+          body: "Descarga el archivo PDF adjunto para revisar los últimos cambios."
+          allowUpdates: true
+          replacesArtifacts: true
+          token: ${{ secrets.GITHUB_TOKEN }}
