@@ -1,0 +1,25 @@
+name: Compilar Trabajo Terminal
+on:
+  push:
+    branches:
+      - main  # O 'master', dependiendo de cómo se llame tu rama principal
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      
+      - name: Compilar documento LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          # latexmk es el motor estándar, compila múltiples veces para resolver referencias
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+          
+      - name: Subir PDF como Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Trabajo_Terminal_PDF
+          path: main.pdf
