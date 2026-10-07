@@ -1,0 +1,194 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{adam2015higgs}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=f64069b8858ffaa83251e49553259d00}{%
+           family={Adam-Bourdarios},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=66ffd2ca2c2d8aeb563033389eb813ff}{%
+           family={Cowan},
+           familyi={C\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a114f538acf3127ebb767898b9a5a600}{%
+           family={Germain},
+           familyi={G\bibinitperiod},
+           given={Cécile},
+           giveni={C\bibinitperiod}}}%
+        {{hash=284a778b6c8e17f1aae38e288dc06036}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8c0b75b51fab44f860838ecaa76c3ce1}{%
+           family={Kégl},
+           familyi={K\bibinitperiod},
+           given={Balázs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9106641016846be7ecb6f36314335519}{%
+           family={Rousseau},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{29c2a28deed7f7e828ad07d26e340568}
+      \strng{fullhash}{cdfa62c667ffb58f2b8337144885d816}
+      \strng{fullhashraw}{cdfa62c667ffb58f2b8337144885d816}
+      \strng{bibnamehash}{29c2a28deed7f7e828ad07d26e340568}
+      \strng{authorbibnamehash}{29c2a28deed7f7e828ad07d26e340568}
+      \strng{authornamehash}{29c2a28deed7f7e828ad07d26e340568}
+      \strng{authorfullhash}{cdfa62c667ffb58f2b8337144885d816}
+      \strng{authorfullhashraw}{cdfa62c667ffb58f2b8337144885d816}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{NIPS 2014 Workshop on High-energy Physics and Machine Learning}
+      \field{title}{The Higgs boson machine learning challenge}
+      \field{year}{2015}
+      \field{pages}{19\bibrangedash 55}
+      \range{pages}{37}
+    \endentry
+    \entry{atlas2014neural}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=4ba32cacae19aee053b33fc6da7f85fd}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={Atlas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{fullhash}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{fullhashraw}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{bibnamehash}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{authorbibnamehash}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{authornamehash}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{authorfullhash}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \strng{authorfullhashraw}{2864cd3f15c6e6c024f34340e9fccc5d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{number}{09}
+      \field{title}{A neural network clustering algorithm for the ATLAS silicon pixel detector}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{pages}{P09009}
+      \range{pages}{-1}
+    \endentry
+    \entry{baldi2014searching}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=29071d8aba395a6fac114cffcb4b6b19}{%
+           family={Baldi},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=542e0ab509cb810ee857a384b90f7fb5}{%
+           family={Sadowski},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=64809702c4162acaf5083abae65c9d5f}{%
+           family={Whiteson},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{fullhash}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{fullhashraw}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{bibnamehash}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{authorbibnamehash}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{authornamehash}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{authorfullhash}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \strng{authorfullhashraw}{008b0c5cabf28da4ef041500cb0ce8cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{Searching for exotic particles in high-energy physics with deep learning}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+    \endentry
+    \entry{li2018deep}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=45fc0568f15b89712e9e67375ff0d1ca}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ce06168988e2c7b56d493e4e57ccbc2a}{%
+           family={Zhengyun},
+           familyi={Z\bibinitperiod},
+           given={You},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b9c233084504a1d224722ad25b3e3812}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yumei},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{fullhash}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{fullhashraw}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{bibnamehash}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{authorbibnamehash}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{authornamehash}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{authorfullhash}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \strng{authorfullhashraw}{ee7fed1c7dd860cf46cf81a280e3c44d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Journal of Physics: Conference Series}
+      \field{number}{4}
+      \field{title}{Deep Learning for Signal and Background Discrimination in Liquid based Neutrino Experiment}
+      \field{volume}{1085}
+      \field{year}{2018}
+      \field{pages}{042037}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
