@@ -1,0 +1,47 @@
+\makeatletter
+\newgeometry{left=2.5cm,right=2.5cm,top=2cm,bottom=2cm}
+\thispagestyle{empty}
+    \noindent
+    \begin{minipage}[c]{0.76\textwidth}
+        \centering
+        \textbf{\MakeUppercase{Instituto Politécnico Nacional}}\\[8pt]
+        \textbf{\MakeUppercase{\@schoolname}}\\[8pt]
+        \textbf{SUBDIRECCIÓN ACADÉMICA}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo-escom.png}
+    \end{minipage}
+
+    \vspace{1.5cm}
+    \noindent
+    \begin{minipage}[t]{0.48\textwidth}
+        No. de TT 2027-A214
+    \end{minipage}
+    \begin{minipage}[t]{0.48\textwidth}
+        \raggedleft Periodo: \@academicyear
+    \end{minipage}
+
+    \vspace{1.2cm}
+    \begin{center}
+        Trabajo Terminal I
+
+        \vspace{1.1cm}
+        \textbf{``\@title''}
+
+        \vspace{1.3cm}
+        \textit{Presentan}
+
+        \vspace{0.45cm}
+        \@author
+
+        \vspace{1.5cm}
+        \textit{Director}
+
+        \vspace{0.45cm}
+        \@advisor
+    \end{center}
+\clearpage
+\restoregeometry
+\makeatother

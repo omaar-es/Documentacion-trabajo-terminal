@@ -23,7 +23,7 @@
     pdfauthor={Hernandez Gutierrez Gerardo \\ Redondo González Omar},
     pdftitle={Prototipo de Sistema Inteligente de Transporte para la Gestión Dinámica de Vialidades mediante Aprendizaje por Refuerzo y Modelos Generativos en una Zona Delimitada de la CDMX},
     pdfsubject={Thesis},
-    pdfkeywords={keyword1, keyword2, keyword3}
+    pdfkeywords={keyword1, keyword2, keyword3},
     pdfproducer={Latex with hyperref},
     pdfcreator={pdflatex}
 }
@@ -43,8 +43,23 @@
     \listofalgorithms
 
 \mainmatter
-    \include{chapters/chapter01}
-    \include{chapters/chapter02}
+   \chapter{Planteamiento de Proyecto}
+    \input{chapters/01-planteamiento}
+
+    \chapter{Marco Teórico}
+    \input{chapters/02-marco-teorico}
+
+    \chapter{Análisis}
+    \input{chapters/03-analisis}
+
+    \chapter{Diseño}
+    \input{chapters/04-diseno}
+
+    \chapter{Desarrollo}
+    \input{chapters/05-desarrollo}
+
+    \chapter{Pruebas y Resultados}
+    \input{chapters/06-pruebas}
 
     \appendix
         \include{chapters/appendixA}
